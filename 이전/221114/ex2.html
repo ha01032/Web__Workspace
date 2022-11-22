@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1>배열 연습하기.</h1>
+    <script>
+        var coworkers = ["egoing", "leezche"];
+        document.write(coworkers[0]);
+        document.write(coworkers[1]);
+    </script>
+
+    <h2>add</h2>
+    <script>
+        coworkers.push('duru');
+        coworkers.push('taeho');
+    </script>
+
+    <h2>count</h2>
+    <script>
+        document.write(coworkers.length);
+    </script>
+
+
+
+
+    <h1>this로 자기 자신을 가리키기.</h1>
+    <input type="button" value="night" onclick="
+    if(this.value === 'night') {
+        document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color= 'white';
+      this.value = 'day';   
+    } else {
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color= 'black';
+      this.value = 'night';   
+    }">
+
+
+</body>
+
+
+</html>
