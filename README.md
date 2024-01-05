@@ -28,7 +28,7 @@ cf. Bellman-Ford: 음의 가중치가 있는 그래프의 한 노드에서 각 �
 
 ## - 매커니즘 구현
 
-![Uploading 표.png…]()
+![표](https://github.com/ha01032/Web__Workspace/assets/117807082/ec039c60-2e3f-4538-a4a5-484ecb386219)
 
 **⇒ 웬만하면 우선순위큐 방식 무조건 쓰자!!**
 
